@@ -1,0 +1,28 @@
+{
+    "name": "danny-examen",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.13",
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "cheerio": "^1.0.0-rc.10",
+        "cors": "^2.8.5",
+        "ejs": "^3.1.6",
+        "express-validator": "^6.13.0",
+        "morgan": "^1.10.0",
+        "node-cron": "^3.0.0"
+    }
+}
